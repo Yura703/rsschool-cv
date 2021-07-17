@@ -36,7 +36,7 @@ Basic knowledge of C#, WPF, ASP .Net Core (MVC), HTML, CSS, JavaScript, NodeJs, 
         document.body.append(button);
     } 
 ## Work experience
-2016-now time - Beltelecom, engineer ((non-IT sphere)).
+2016-now time - Beltelecom, engineer (non-IT sphere).
 ## Education
 * Institute of Information Technologies BSUIR (2019-2021), software engineer;
 * Belarusian National Technical University (2000-2006), electrical engineer.
