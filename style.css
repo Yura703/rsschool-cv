@@ -5,28 +5,38 @@ html{
     box-sizing: inherit; /*РЅР°СЃР»РµРґРѕРІР°С‚СЊ РѕС‚ СЂРѕРґРёС‚РµР»СЏ */
   }
 
+  h2, h1 {
+      margin: 0;
+  }
+
+  .div {
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
 .main {
     max-width: 600px;
     margin: 0 auto;
-    background: rgb(159, 212, 236); /* Цвет фона */
+    background: rgb(233, 240, 243); /* Цвет фона */
 }
 
 .footer {
     max-width: 600px;
     height: 50px;
     margin: 0 auto;
-    background: rgb(20, 171, 241); /* Цвет фона */
+    background: rgb(224, 236, 241); /* Цвет фона */
 }
 
 .header {
     max-width: 600px;
     height: 50px;
     margin: 0 auto;
-    background: rgb(15, 162, 230); /* Цвет фона */
+    background: rgb(207, 234, 247); /* Цвет фона */
 }
 
-.section-left {
-    max-width: 185px;
-
-
+.div-margin {
+    float: left;   
+    height: auto;
+    margin: 10px;
 }
