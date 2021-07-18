@@ -10,13 +10,103 @@
 
 <body>
     <header>
-
+        <h1>Yury Lapitski</h1>
     </header>
     <main>
+        <section>
+            <h2>Contacts</h2>
+            <ul>
+                <li>
+                    <b>Tel:</b> +375(29) 703-80-52;
+                </li>
+                <li>
+                    <b>E-mail:</b> lyurik@tut.by
+                </li>
+                <li>
+                    <b>Discord:</b> yura#3119;
+                </li>
+                <li>
+                    <b>Telegram:</b> yura703
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>About</h2>
+            I love programming and try to constantly develop in this. I want to become a Full-stack development
+            specialist.
+            In my free time I am engaged in self-study using various online courses (coursera.org, itvdn.com and
+            others), I
+            train on codewars.com and nodeschool.io.
+        </section>
+        <section>
+            <h2>Skills</h2>
+            Basic knowledge of C#, WPF, ASP .Net Core (MVC), HTML, CSS, JavaScript, NodeJs, SQL, Entity Framework, Git,
+            Microsoft SQL Server, UML
+        </section>
+        <section>
+            <h2>Code sample (codewars task)</h2>
+            <pre>
+            <code>
+            function startTest() {
+                document.querySelectorAll("button").forEach(elem => {
+                elem.disabled = true;
+                });;
+                for (let i = 0; i < tests.length; i++) { 
+                    let div = document.createElement("div"); 
+                    let title = "<strong>" + tests[i].quest + "</strong>"; 
+                    div.innerHTML = title; 
+                    document.body.append(div); 
+                    for (let j=0; j < 4; j++) { 
+                        let checkBox = document.createElement("input"); 
+                        checkBox.type = "checkbox" ; 
+                        let label = document.createElement("label"); 
+                        label.textContent = tests[i].answer[j]; 
+                        let br = document.createElement("br"); 
+                        document.body.append(checkBox, label, br); 
+                    } 
+                } 
+                let button = document.createElement("button"); 
+                button.textContent = "Отправить";
+                button.addEventListener("click", function () {
+                    CheckTest(); 
+                }); 
+                document.body.append(button); 
+            }
+            </code>
+        </pre>
+        </section>
+        <section>
+            <h2>Work</h2>
+            <ul>
+                <li>
+                    2016-now time - Beltelecom, engineer (non-IT sphere)
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    Institute of
+                    Information
+                    Technologies BSUIR (2019-2021), software engineer;
+                </li>
+                <li>
+                    Belarusian National Technical University
+                    (2000-2006),
+                    electrical engineer.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>English level</h2>
+            A2. I improve the level of English at a language school.
+        </section>
 
     </main>
     <footer>
-        <p> 2021 year
+        <time>2021</time>
+        <nav>
             <a href="https://github.com/Yura703">
                 <img width="50" src="https://timeweb.com/ru/community/article/4a/4ac8e97022a9115410d9bc34517fa86d.jpg"
                     alt="GitHub"></a>
@@ -24,34 +114,11 @@
             <a href="https://rs.school/js/">
                 <img width="50" src="https://rs.school/images/rs_school_js.svg" alt="RSS">
             </a>
-        </p>
+        </nav>
     </footer>
-    # Yury Lapitski
-    ## Contacts
-    * __Tel:__ +375(29) 703-80-52;
-    * __E-mail:__ lyurik@tut.by;
-    * __Discord:__ yura#3119;
-    * __Telegram:__ yura703.
-    ## About
-    I love programming and try to constantly develop in this. I want to become a Full-stack development specialist.
-    In my free time I am engaged in self-study using various online courses (coursera.org, itvdn.com and others), I
-    train on codewars.com and nodeschool.io.
-    ## Skills
-    Basic knowledge of C#, WPF, ASP .Net Core (MVC), HTML, CSS, JavaScript, NodeJs, SQL, Entity Framework, Git,
-    Microsoft SQL Server, UML
-    ## Code sample (codewars task)
-    function startTest() {
-    document.querySelectorAll("button").forEach(elem => {
-    elem.disabled = true;
-    });;
-    for (let i = 0; i < tests.length; i++) { let div=document.createElement("div"); let title="<strong>" +
-        tests[i].quest + "</strong>" ; div.innerHTML=title; document.body.append(div); for (let j=0; j < 4; j++) { let
-        checkBox=document.createElement("input"); checkBox.type="checkbox" ; let label=document.createElement("label");
-        label.textContent=tests[i].answer[j]; let br=document.createElement("br"); document.body.append(checkBox, label,
-        br); } } let button=document.createElement("button"); button.textContent="Отправить" ;
-        button.addEventListener("click", function () { CheckTest(); }); document.body.append(button); } ## Work
-        experience 2016-now time - Beltelecom, engineer (non-IT sphere). ## Education * Institute of Information
-        Technologies BSUIR (2019-2021), software engineer; * Belarusian National Technical University (2000-2006),
-        electrical engineer. ## English level A2. I improve the level of English at a language school. </body>
+
+
+
+</body>
 
 </html>
