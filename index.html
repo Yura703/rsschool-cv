@@ -74,12 +74,12 @@
                 document.querySelectorAll("button").forEach(elem => {
                 elem.disabled = true;
                 });;
-                for (let i = 0; i < tests.length; i++) { 
+                for (let i = 0; i &lt; tests.length; i++) { 
                     let div = document.createElement("div"); 
                     let title = "<strong>" + tests[i].quest + "</strong>"; 
                     div.innerHTML = title; 
                     document.body.append(div); 
-                    for (let j=0; j &lt 4; j++) { 
+                    for (let j=0; j &lt; 4; j++) { 
                         let checkBox = document.createElement("input"); 
                         checkBox.type = "checkbox" ; 
                         let label = document.createElement("label"); 
