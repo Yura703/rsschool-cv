@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box; /*РѕС‚СЃС‚СѓРїС‹ РІРЅСѓС‚СЂСЊ Р±Р»РѕРєР°*/
+  }
+  *, *::before, ::after{
+    box-sizing: inherit; /*РЅР°СЃР»РµРґРѕРІР°С‚СЊ РѕС‚ СЂРѕРґРёС‚РµР»СЏ */
+  }
+
+  h2, h1 {
+      margin: 0;
+  }
+
+  .div {
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(233, 240, 243); /* Цвет фона */
+}
+
+.footer {
+    max-width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    background: rgb(224, 236, 241); /* Цвет фона */
+}
+
+.header {
+    max-width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    background: rgb(207, 234, 247); /* Цвет фона */
+}
+
+.div-margin {
+    float: left;   
+    height: auto;
+    margin: 10px;
+}
