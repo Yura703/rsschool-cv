@@ -74,12 +74,12 @@
                 document.querySelectorAll("button").forEach(elem => {
                 elem.disabled = true;
                 });;
-                for (let i = 0; i < tests.length; i++) { 
+                for (let i = 0; i &lt; tests.length; i++) { 
                     let div = document.createElement("div"); 
                     let title = "<strong>" + tests[i].quest + "</strong>"; 
                     div.innerHTML = title; 
                     document.body.append(div); 
-                    for (let j=0; j &lt 4; j++) { 
+                    for (let j=0; j &lt; 4; j++) { 
                         let checkBox = document.createElement("input"); 
                         checkBox.type = "checkbox" ; 
                         let label = document.createElement("label"); 
@@ -128,12 +128,11 @@
 
             <div class="div-margin">
                 <nav>
+                    <div class="div-margin"><time>2021</time></div>
                     <a href="https://github.com/Yura703">
-                        <img style="margin: 10px;" width="50" src="./image/git.jpg" alt="GitHub"></a>
-                    <div class="div-margin"> <time>2021</time></div>
+                        <img style="margin-left: 100px;" height="30" src="./image/git.jpg" alt="GitHub"></a>
                     <a href="https://rs.school/js/">
-                        <img style="margin: 10px;" width="50" src="./image/rs_school_js.svg" alt="RSS">
-                    </a>
+                        <img style="margin-left: 100px;" height="30" src="./image/rs_school_js.svg" alt="RSS"></a>
                 </nav>
             </div>
         </div>
