@@ -7,40 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
-<body class="main">
+<body class="continer">
+
     <header class="header">
-        <h1>Yury Lapitski</h1>
+
+        <div class="container">
+            <nav>
+                <ul class="menu header">
+                    <li class="menu-item">
+                        <a href="#Contacts" class="menu-link">Contacts</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#About" class="menu-link">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#Skills" class="menu-link">Skills</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#Code-sample" class="menu-link">Code sample</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#Work" class="menu-link">Work</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#Education" class="menu-link">Education</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#English-level" class="menu-link">English level</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
+
     <main>
         <div>
-            <div style="height: 210px;">
-                <div class="div">
-                    <img src="./image/avatar.jpg" width="200" alt="avatar">
+            <div class="avatar-flex">
+
+                <div class="avatar">
+                    <figure>
+                        <img src="./image/avatar.jpg" width="200" alt="avatar">
+                        <figcaption>
+                            <h3>Anonim</h3>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="div">
-                    <section>
-                        <h2>Contacts</h2>
-                        <ul>
-                            <li>
-                                <b>Tel:</b> +375(29) 703-80-52;
-                            </li>
-                            <li>
-                                <b>E-mail:</b> lyurik@tut.by
-                            </li>
-                            <li>
-                                <b>Discord:</b> yura#3119;
-                            </li>
-                            <li>
-                                <b>Telegram:</b> yura703
-                            </li>
-                        </ul>
-                    </section>
+
+                <div class="name">
+                    <h1 class="main-title">Yury Lapitski</h1>
                 </div>
             </div>
             <div>
-                <section>
+                <section id="Contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>
+                            <b>Tel:</b> +375(29) 703-80-52;
+                        </li>
+                        <li>
+                            <b>E-mail:</b> lyurik@tut.by
+                        </li>
+                        <li>
+                            <b>Discord:</b> yura#3119;
+                        </li>
+                        <li>
+                            <b>Telegram:</b> yura703
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div>
+                <section id="About">
                     <h2>About</h2>
                     <p>
                         I love programming and try to constantly develop in this. I want to become a Full-stack
@@ -54,7 +98,7 @@
                     </p>
                 </section>
             </div>
-            <section>
+            <section id="Skills">
                 <h2>Skills</h2>
                 <p>Basic knowledge of:</p>
                 <ul>
@@ -66,10 +110,10 @@
                     <li>UML.</li>
                 </ul>
             </section>
-            <section>
+            <section id="Code-sample">
                 <h2>Code sample (codewars task)</h2>
                 <pre>
-            <code>
+            <code class="language-html">
             function startTest() {
                 document.querySelectorAll("button").forEach(elem => {
                 elem.disabled = true;
@@ -98,7 +142,7 @@
             </code>
         </pre>
             </section>
-            <section>
+            <section id="Work">
                 <h2>Work</h2>
                 <ul>
                     <li>
@@ -106,7 +150,7 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <section id="Education">
                 <h2>Education</h2>
                 <ul>
                     <li>
@@ -117,7 +161,7 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <section id="English-level">
                 <h2>English level</h2>
                 <p>A2. I improve the level of English at a language school.</p>
             </section>
