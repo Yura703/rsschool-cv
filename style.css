@@ -1,38 +1,89 @@
-html{
-    box-sizing: border-box; /*РѕС‚СЃС‚СѓРїС‹ РІРЅСѓС‚СЂСЊ Р±Р»РѕРєР°*/
+html {
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
   }
+  
   *, *::before, ::after{
-    box-sizing: inherit; /*РЅР°СЃР»РµРґРѕРІР°С‚СЊ РѕС‚ СЂРѕРґРёС‚РµР»СЏ */
+    box-sizing: inherit; 
   }
 
   h2, h1 {
       margin: 0;
   }
-
+ 
   .div {
     float: left;
     width: 40%;
     height: auto;
 }
 
-.main {
-    max-width: 600px;
-    margin: 0 auto;
+.menu header {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.menu-item {
+    margin-right: 82px;
+}
+
+.header_item:last-child {
+    margin-right: 0;
+  }
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+}  
+
+.menu-link:hover, .menu_link:focus, .menu-link:active {
+    color: #9d8665;
+    }
+
+.continer {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0px auto;
+    padding: 0px 15px;
     background: rgb(233, 240, 243); /* Цвет фона */
+   
+}
+
+@media (max-width: 767px) {
+
 }
 
 .footer {
-    max-width: 600px;
-    height: 50px;
-    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 320px;
+    min-height: 50px;
+    padding: 0px 15px;
+    margin: 0 auto;   
     background: rgb(224, 236, 241); /* Цвет фона */
 }
 
-.header {
-    max-width: 600px;
-    height: 50px;
+.avatar {
+flex: 0 1 50%;
+padding: 0px 15 px;
+
+}
+
+.avatar-flex {
+    display: flex;
+    margin: 0px 15px;
+}
+
+.header {    
+    max-width: 1200px;
+    min-width: 320px;
+    min-height: 50px;
+    padding: 0px 15px;
     margin: 0 auto;
     background: rgb(207, 234, 247); /* Цвет фона */
+    /* min-height: 200px;
+    display: flex;
+        align-items: center;
+        justify-content: center; */
+     
 }
 
 .div-margin {
