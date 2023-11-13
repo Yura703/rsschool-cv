@@ -8,7 +8,7 @@
 I love programming and try to constantly develop in this. I want to become a Full-stack development specialist.
 In my free time I am engaged in self-study using various online courses (coursera.org, itvdn.com and others), I train on codewars.com and nodeschool.io.
 ## Skills
-Basic knowledge of Node.js, C#, WPF, ASP .Net Core (MVC), HTML, CSS, JavaScript, TypeScript, SQL, Entity Framework, Git, Microsoft SQL Server, UML
+Basic knowledge of Node.js, React, Angular, C#, WPF, ASP .Net Core (MVC), HTML, CSS, JavaScript, TypeScript, SQL, Entity Framework, Git, Microsoft SQL Server, UML
 ## Code sample (codewars task)
     function startTest() {
         document.querySelectorAll("button").forEach(elem => {
